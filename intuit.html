@@ -1,0 +1,222 @@
+
+<link rel="stylesheet" href="css/skeleton.css">
+<link rel="stylesheet" href="css/styles.css">
+<script type="text/javascript">
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("myBtn").style.display = "block";
+  } else {
+      document.getElementById("myBtn").style.display = "none";
+  } 
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Chrome, Safari and Opera 
+  document.documentElement.scrollTop = 0; // For IE and Firefox
+}
+
+</script>
+
+<!-- Header -->
+<div class="container">
+  <div class="row">
+    <div class="twelve columns">
+      <h1>Intuit</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="eleven columns">
+      <h5>Experience Design Intern</h5>
+      <h6>Summer 2016</h6>
+    </div>
+    <div class="one column">
+      <a href="index.html"><h6 class="navbar-link">Home</h6></a>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  </div>
+</div>
+
+<!-- Content -->
+<div class="portfolio dd">
+  <div class="container" style="padding-top: 48px">
+    <div class="row">
+      <div class="ten columns">
+        <h5>Overview</h5> 
+        <p>Accountants are becoming busier and busier, with handling a client's documents in one place to making sure that another client's return has been processed and accepted (all while trying to expand their practice). How do we harness all the screens that already dominate an accountants daily life to make their job easier, deliver actionable value in under three seconds, and reduce friction with our platform? As an experience design intern, I researched and discovered mobile insights for Intuit, and used these insights to create robust mobile prototypes for the Intuit Tax Online product.</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="ten columns">
+        <h5>Goal</h5> 
+        <p>Discover the best cross device use cases for accountants and validate these use cases through rapid prototyping.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="ten columns">
+        <h5>Problem Statement</h5>
+        <p>I am a <strong>small business accountant</strong></p>
+        <p>I am trying to balance <strong>client</strong> and <strong>practice management</strong></p>
+        <p>But I'm <strong>flying blind</strong></p>
+        <p>Because the tools and information <strong>are not easy</strong> to access</p>
+        <p>Which makes me feel <strong>behind, uncertain, and trapped.</strong></p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="ten columns">
+        <h5>Discover</h5>
+        <h6><strong>Who</strong></h6>
+        <p>Meet Andrew Bison, CPA. Here's how his day currently goes:</p>
+        <img style="width:100%; height:auto;"src="intuit/abison.png" alt="intuit">
+        <p style="padding-top:48px">Andrew, usually wakes up with some notifications. He checks these while he's making his coffee before heading to work. At work, he uses his Dell Monitor to manage clients, find ways to grow his practice, and constantly check his email for updates. On his way out of the office, Andrew completes some digital chores before heading home for dinner. He checks Facebook, Twitter, and of course Email right before hitting the sack.</p>
+        <p>Now, knowing how Andrew uses the technology around him, how can we design the most magical cross-device experience for him?</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="ten columns">
+        <h6><strong>Ideas</strong></h6>
+        <p>After carefully examining the Intuit Tax Online (ITO) Platform, I made a graph of ideas with everything ITO can currently do (that we aren't doing) and everything that ITO could potentially do. This graph allowed me to figure out the riskiest (and potentially the most magical) ideas.</p>
+        <img style="width:50%; height:auto;"src="intuit/ideas.png" alt="intuit">
+        <br />
+        <img style="width:70%; height:auto;"src="intuit/ideashigh.png" alt="intuit">
+        <p style="padding-top:48px"><strong>Stack-Rank Testing</strong></p>
+        <p>I now had all these ideas graphed out, but how was I supposed to figure out which ones would be the most valuable to accountants? Time to test. I converted all these ideas into use cases, and laid out each use case in two piles: green cards and orange cards.</p>
+        <p>Green - everything ITO can do right now. Orange - everything ITO can potentially do.</p>
+        <p>After conducting this exercise with 5 accountants, I had a clear idea of how an accountant's priorities shifted throughout the year, and how this shift would impact the product I planned to create.</p>
+        <img style="width:70%; height:auto;"src="intuit/ranks1.png" alt="intuit">
+        <br />
+        <img style="width:40%; height:auto;"src="intuit/rankshigh.png" alt="intuit">
+        <br />
+        <hr>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="ten columns">
+        <h5>Define</h5>
+        <h6><strong>Developing Use Cases</strong></h6>
+        <p>With the initial research completed, its now time to develop a cross-device use case that could mold itself into the analogs we've been thinking about. Sara (Senior Interaction Designer) and I starting brainstorming a substantial use case that we could test using a low-fi prototype:</p>
+        <img style="width:100%; height:auto;"src="intuit/flow.png" alt="intuit">
+        <p style="padding-top:48px"><strong>Use Case Map</strong></p>
+        <p>Sara and I decided to go with a use case that described an accountant received a W2 from a client with an unexplained discrepancy (something that occurs often during tax season). Here's how we mapped out the use case across devices, with an empathy line.</p>
+        <img style="width:100%; height:auto;"src="intuit/usecasemap.png" alt="intuit">
+        <p style="padding-top:48px">The empathy line helped us figure out where both parties had 
+          low emotions and find a way to turn the tables and make this low point into a high, magical one.</p>
+        <hr>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="ten columns">
+        <h5>Design</h5>
+        <h6><strong>Low Fidelity Testing</strong></h6>
+        <video controls="controls" width="800" height="600" name="Video Name" src="intuit/in.mov"></video>
+        <p>We met with Jolie, an accountant with just three clients. Jolie is looking to expand her practice. She attends networking events, checks up with clients if they need any additional work, and posts on platforms like Craigslist. Jolie also constantly checks up on her clients' progress, as missing documents can be a huge headache. After playing with this low-fi prototype, she said that the another way she wants to be more engaged with her clients throughout the year (rather than just during tax season) is by sharing news from AccountantsToday, LinkedIn, or Twitter. At the end of the test, Jolie asked "Is that app already out yet? I really need something like that."
+        Jolie's feedback, along with a couple of additional accountants, validated our hypothesis and it was time to move to a higher fidelity.</p>
+        <img style="width:100%; height:auto;"src="intuit/flow.png" alt="intuit">
+        <p style="padding-top:48px"><strong>Use Case Map</strong></p>
+        <p>Sara and I decided to go with a use case that described an accountant received a W2 from a client with an unexplained discrepancy (something that occurs often during tax season). Here's how we mapped out the use case across devices, with an empathy line.</p>
+        <img style="width:100%; height:auto;"src="intuit/usecasemap.png" alt="intuit">
+        <p style="padding-top:48px">The empathy line helped us figure out where both parties had 
+          low emotions and find a way to turn the tables and make this low point into a high, magical one.</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="ten columns">
+        <h5>Fork in the Road: Native Application vs Bots</h5>
+        <p>With these insights, I began thinking about how a lot of the functionality that we were 
+          trying to implement could be achieved by a conversational bot. The beauty of a chat-bot is that 
+          it's proactive rather than reactive. But how would accountants react to this paradigm, as 
+          accountants are usually the ones in control? Only one way to find out: Test it.</p>
+        <p><strong>Conversational Inspirations</strong></p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="six columns">
+        <img style="width:100%; height:auto;"src="intuit/quartz.png" alt="intuit">
+        <br>
+      </div>
+      <div class="six columns">
+        <img style="width:100%; height:auto;"src="intuit/messenger.png" alt="intuit">
+        <br>
+      </div>
+    </div>
+    
+    <div style="padding-top:48px" class="row">
+      <div class="ten columns">
+        <h5>Sketching Scenarios</h5>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="four columns">
+        <img style="width:100%; height:auto;"src="intuit/sk1.png" alt="intuit">
+      </div>
+      <div class="four columns">
+        <img style="width:100%; height:auto;"src="intuit/sk2.png" alt="intuit">
+      </div>
+      <div class="four columns">
+        <img style="width:100%; height:auto;"src="intuit/sk3.png" alt="intuit">
+      </div>
+    </div>
+    
+    <hr>
+    
+    <div class="row">
+      <div class="ten columns">
+        <h5>Deliver</h5>
+        <p>With these insights, I began thinking about how a lot of the functionality that we were 
+          trying to implement could be achieved by a conversational bot. The beauty of a chat-bot is that 
+          it's proactive rather than reactive. But how would accountants react to this paradigm, as 
+          accountants are usually the ones in control? Only one way to find out: Test it.</p>
+        <p><strong>Chat Bot</strong></p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="four columns">
+        <video controls="controls" width="320" height=auto name="Growing Client Base" src="intuit/intu_growclientbase.mov"></video>
+      </div>
+      <div class="four columns">
+        <video controls="controls" width="320" height=auto name="Return Accepted" src="intuit/intu_returnaccept.mov"></video>
+      </div>
+      <div class="four columns">
+        <video controls="controls" width="320" height=auto name="Issue a W2" src="intuit/intu_w2issue.mov"></video>
+      </div>
+    </div>
+    
+    <br>
+    
+    <div class="row">
+      <div class="ten columns">
+        <h5>Native Application</h5>
+        <p><strong>Activity Center Explorations</strong></p>
+        <img style="width:100%; height:auto;"src="intuit/acenterexplore.png" alt="intuit">
+        <br>
+        <p><strong>Profile Center Explorations</strong></p>
+        <img style="width:100%; height:auto;"src="intuit/profexplore.png" alt="intuit">
+        <br>
+        <p><strong>Batch Notifications</strong></p>
+        <img style="width:100%; height:auto;"src="intuit/batchnotif.png" alt="intuit">
+        <br>
+        <p><strong>Mid-Fidelity Flow</strong></p>
+        <img style="width:100%; height:auto;"src="intuit/midfiflow.png" alt="intuit">
+        <br>
+        <p><strong>High-Fidelity Flow</strong></p>
+        <img style="width:100%; height:auto;"src="intuit/hififlow.png" alt="intuit">
+        <br>
+        <p><strong><a style="text-decoration: underline"href="https://projects.invisionapp.com/share/AH97UZ2N3#/screens">Link to Prototype</a></strong></p>
+      </div>
+    </div>
+</div> 
+  
+
