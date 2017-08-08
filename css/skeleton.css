@@ -130,6 +130,7 @@ html {
   font-size: 62.5%; }
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  background-color: #FCFCFC;
   line-height: 1.6;
   font-weight: 400;
   font-family: -apple-system, BlinkMacSystemFont, 
@@ -177,9 +178,12 @@ img {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
   text-decoration: none;
+  color: #90949C;
 }
-a:hover {
-  color: #222; }
+a:visited { text-decoration: none; color:#90949C; }
+a:hover { text-decoration: none; color: #1D2129; }
+a:focus { text-decoration: none; color:#90949C; }
+
 
 
 /* Buttons
@@ -483,7 +487,6 @@ there.
   animation: 0.75s ease-in 0s 1 slideInFromLeft;
 }
 .portfolio {
-  background-color: #FCFCFC;
   margin-top: -96px;  
 }
 #myBtn {
@@ -494,6 +497,10 @@ there.
     z-index: 99; /* Make sure it does not overlap */
     cursor: pointer; /* Add a mouse pointer on hover */
 }
+i {
+  margin-top: 20px;
+}
+
 
 
 
